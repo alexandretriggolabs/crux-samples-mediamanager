@@ -17,14 +17,14 @@ package org.cruxframework.mediamanager.client.controller;
 
 import org.cruxframework.crux.core.client.controller.Controller;
 import org.cruxframework.crux.core.client.controller.Expose;
+import org.cruxframework.crux.core.client.event.OkEvent;
+import org.cruxframework.crux.core.client.event.OkHandler;
 import org.cruxframework.crux.core.client.ioc.Inject;
 import org.cruxframework.crux.core.client.screen.views.BindView;
 import org.cruxframework.crux.core.client.screen.views.WidgetAccessor;
 import org.cruxframework.crux.smartfaces.client.dialog.Confirm;
 import org.cruxframework.crux.smartfaces.client.dialog.WaitBox;
 import org.cruxframework.crux.smartfaces.client.dialog.animation.DialogAnimation;
-import org.cruxframework.crux.smartfaces.client.event.OkEvent;
-import org.cruxframework.crux.smartfaces.client.event.OkHandler;
 import org.cruxframework.crux.widgets.client.deviceadaptivegrid.DeviceAdaptiveGrid;
 import org.cruxframework.crux.widgets.client.event.SelectEvent;
 import org.cruxframework.crux.widgets.client.grid.DataRow;

@@ -19,6 +19,8 @@ import java.util.Date;
 
 import org.cruxframework.crux.core.client.controller.Controller;
 import org.cruxframework.crux.core.client.controller.Expose;
+import org.cruxframework.crux.core.client.event.OkEvent;
+import org.cruxframework.crux.core.client.event.OkHandler;
 import org.cruxframework.crux.core.client.ioc.Inject;
 import org.cruxframework.crux.core.client.screen.views.BindView;
 import org.cruxframework.crux.core.client.screen.views.BindableView;
@@ -31,8 +33,6 @@ import org.cruxframework.crux.smartfaces.client.dialog.MessageBox;
 import org.cruxframework.crux.smartfaces.client.dialog.MessageBox.MessageType;
 import org.cruxframework.crux.smartfaces.client.dialog.WaitBox;
 import org.cruxframework.crux.smartfaces.client.dialog.animation.DialogAnimation;
-import org.cruxframework.crux.smartfaces.client.event.OkEvent;
-import org.cruxframework.crux.smartfaces.client.event.OkHandler;
 import org.cruxframework.crux.widgets.client.datebox.DateBox;
 import org.cruxframework.crux.widgets.client.deviceadaptivegrid.DeviceAdaptiveGrid;
 import org.cruxframework.crux.widgets.client.event.SelectEvent;
